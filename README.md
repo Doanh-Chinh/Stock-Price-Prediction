@@ -1,4 +1,4 @@
-# In this project, we reuse and adapt relevant functions from related rearch to our specific research context 
+# In this project, we reuse and adapt relevant functions from related research to our specific research context 
 Original source is available at https://github.com/zshicode/attention-clx-stock-prediction
 ## Citation
 ```
