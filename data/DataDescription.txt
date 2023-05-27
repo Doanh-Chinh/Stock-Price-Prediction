@@ -1,0 +1,36 @@
+code: The code of the stock.
+date: The date of the price data.
+time: The time of the price data.
+floor: The trading floor where the stock was traded.
+type: The type of the stock.
+basicPrice: The basic price of the stock.
+ceilingPrice: The ceiling price of the stock.
+floorPrice: The floor price of the stock.
+open: The opening price of the stock.
+high: The highest price of the stock.
+low: The lowest price of the stock.
+close: The closing price of the stock.
+average: The average price of the stock.
+adOpen: The adjusted opening price of the stock.
+adHigh: The adjusted highest price of the stock.
+adLow: The adjusted lowest price of the stock.
+adClose: The adjusted closing price of the stock.
+adAverage: The adjusted average price of the stock.
+nmVolume: The volume of the stock traded in the normal market.
+nmValue: The value of the stock traded in the normal market.
+ptVolume: The volume of the stock traded in the put-through market.
+ptValue: The value of the stock traded in the put-through market.
+change: The change in price of the stock.
+adChange: The adjusted change in price of the stock.
+pctChange: The percentage change in price of the stock.
+snapshot_date: The date when the data was captured or recorded.
+vietnameseName: The Vietnamese name of the stock.
+
+A general rule of thumb is that a VIF value greater than 5 indicates high multicollinearity, but this can vary depending on the specific context of the problem.
+pt: put through (thỏa thuận giữa hai bên)
+nm: normal
+
+nmValue: It is usually calculated by multiplying the number of shares traded by their respective closing prices.
+It represents the total amount of money exchanged in the normal market trading session for a particular stock.
+nmVolume: refers to the volume of shares traded in the normal market. It is a measure of how many shares of a particular stock were traded during a given period of time in the regular market trading session.
+Adjusted close is the closing price of a stock that has been adjusted for any corporate actions that may have affected the price. For example, if a company issues a dividend or splits its shares, the price of the stock will be adjusted to reflect these changes.
