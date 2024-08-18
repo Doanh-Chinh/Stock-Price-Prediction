@@ -3,8 +3,7 @@
 ```diff
 - text in red
 ```
-```html
-<p><span style="color: red;">**Table. Statistic Description**</span></p>
+$${\color{red}Table. Statistic Description
 
 | Feature   | count |   mean  |   std   |  min  |  25%   |  50%   |  75%   |  max   |
 |-----------|-------|---------|---------|-------|--------|--------|--------|--------|
