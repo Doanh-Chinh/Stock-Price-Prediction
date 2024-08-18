@@ -14,6 +14,7 @@ $${\color{red}Table. Statistic Description}$$
 ![Screenshot](boxplot.png)
 ## Splitting Time Series Data for training and testing process
 ![Screenshot](train-test-split.png)
+
 $${\color{red}Table. Splitting Time Series Data}$$
 | Set            | Start Date | End Date   |
 |----------------|------------|------------|
@@ -23,24 +24,27 @@ $${\color{red}Table. Splitting Time Series Data}$$
 ![Screenshot](close-price.png)
 ## Experimental Results
 ### Evaluation and Results of ARIMA
-#### Feature: Closing price
+#### Input Feature: Closing price
 ![Screenshot](ARIMA-result.png)
+
 $${\color{red}Table. ARIMA performance}$$
 | Set            |   MAE   |   RMSE   | R2 Score |  MAPE  |
 |----------------|---------|----------|----------|--------|
 | Validation Set | 0.70380 | 1.02561  | 0.94587  | 1.988  |
 | Test Set       | 0.51793 | 0.72907  | 0.89888  | 1.510  |
 ### The experiment result on hybrid ARIMA and XGBoost with the parameter  n_timestamp = 1
-#### Feature: Close, Open, High, Low, nmVolume, ARIMA Residuals
+#### Input Features: Close, Open, High, Low, nmVolume, ARIMA Residuals
 ![Screenshot](ARIMA-XGBoost.png)
+
 $${\color{red}Table. Hybrid ARIMA and XGBoost performance}$$
 | Set            |   MAE   |   RMSE   | R2 Score |  MAPE  |
 |----------------|---------|----------|----------|--------|
 | Validation Set | 0.57544 | 0.91457  | 0.95696  |  1.59  |
 | Test Set       | 0.32653 | 0.45233  | 0.96108  |  0.95  |
 ### Evaluation and Results of hybrid Attention-Based CNN-LSTM 
-#### Feature: Close, Open, High, Low, nmVolume, ARIMA Residuals
+#### Input Features: Close, Open, High, Low, nmVolume, ARIMA Residuals
 ![Screenshot](Att-CNN-LSTM.png)
+
 $${\color{red}Table. Hybrid Attention-Based CNN-LSTM performance}$$
 | Set            |   MAE   |   RMSE   | R2 Score |  MAPE  |
 |----------------|---------|----------|----------|--------|
