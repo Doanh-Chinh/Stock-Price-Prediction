@@ -3,7 +3,7 @@
 ```diff
 - text in red
 ```
-$${\color{red}Table. Statistic Description$$
+$${\color{red}Table. Statistic Description}$$
 
 | Feature   | count |   mean  |   std   |  min  |  25%   |  50%   |  75%   |  max   |
 |-----------|-------|---------|---------|-------|--------|--------|--------|--------|
