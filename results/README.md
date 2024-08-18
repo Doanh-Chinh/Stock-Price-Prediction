@@ -2,6 +2,8 @@
 ![Screenshot](histplot_data.png)
 ```diff
 - text in red
+```
+```html
 <p><span style="color: red;">**Table. Statistic Description**</span></p>
 
 | Feature   | count |   mean  |   std   |  min  |  25%   |  50%   |  75%   |  max   |
