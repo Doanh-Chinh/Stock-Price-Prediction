@@ -1,6 +1,7 @@
 ## Histplot data after converting time series to specified frequency and fill nan values.
 ![Screenshot](histplot_data.png)
-<span style="color:red">This text will be red.</span>
+```diff
+- text in red
 <p><span style="color: red;">**Table. Statistic Description**</span></p>
 
 | Feature   | count |   mean  |   std   |  min  |  25%   |  50%   |  75%   |  max   |
