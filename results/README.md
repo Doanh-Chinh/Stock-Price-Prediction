@@ -1,8 +1,5 @@
 ## Histplot data after converting time series to specified frequency and fill nan values.
 ![Screenshot](histplot_data.png)
-```diff
-- text in red
-```
 $${\color{red}Table. Statistic Description}$$
 
 | Feature   | count |   mean  |   std   |  min  |  25%   |  50%   |  75%   |  max   |
@@ -16,7 +13,7 @@ $${\color{red}Table. Statistic Description}$$
 ![Screenshot](boxplot.png)
 ## Splitting Time Series Data for training and testing process
 ![Screenshot](train-test-split.png)
-Table. Splitting Time Series Data 
+$${\color{red}Table. Splitting Time Series Data}$$
 | Set            | Start Date | End Date   |
 |----------------|------------|------------|
 | Training Set   | 2018-09-25 | 2020-11-24 |
@@ -27,7 +24,7 @@ Table. Splitting Time Series Data
 ### Evaluation and Results of ARIMA
 #### Feature: Closing price
 ![Screenshot](ARIMA-result.png)
-Table. ARIMA performance
+$${\color{red}Table. ARIMA performance}$$
 | Set            |   MAE   |   RMSE   | R2 Score |  MAPE  |
 |----------------|---------|----------|----------|--------|
 | Validation Set | 0.70380 | 1.02561  | 0.94587  | 1.988  |
@@ -35,7 +32,7 @@ Table. ARIMA performance
 ### The experiment result on hybrid ARIMA and XGBoost with the parameter  n_timestamp = 1
 #### Feature: Close, Open, High, Low, nmVolume, ARIMA Residuals
 ![Screenshot](ARIMA-XGBoost.png)
-Table. Hybrid ARIMA and XGBoost performance
+$${\color{red}Table. Hybrid ARIMA and XGBoost performance}$$
 | Set            |   MAE   |   RMSE   | R2 Score |  MAPE  |
 |----------------|---------|----------|----------|--------|
 | Validation Set | 0.57544 | 0.91457  | 0.95696  |  1.59  |
@@ -43,7 +40,7 @@ Table. Hybrid ARIMA and XGBoost performance
 ### Evaluation and Results of hybrid Attention-Based CNN-LSTM 
 #### Feature: Close, Open, High, Low, nmVolume, ARIMA Residuals
 ![Screenshot](Att-CNN-LSTM.png)
-Table. Hybrid Attention-Based CNN-LSTM performance
+$${\color{red}Table. Hybrid Attention-Based CNN-LSTM performance}$$
 | Set            |   MAE   |   RMSE   | R2 Score |  MAPE  |
 |----------------|---------|----------|----------|--------|
 | Training Set   | 0.84189 | 1.24881  | 0.96578  |  2.9   |
