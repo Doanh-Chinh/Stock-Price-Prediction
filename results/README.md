@@ -1,6 +1,6 @@
 ## Histplot data after converting time series to specified frequency and fill nan values.
 ![Screenshot](histplot_data.png)
-Table. Statistic Description
+<p><span style="color: red;">**Table. Statistic Description**</span></p>
 | Feature   | count |   mean  |   std   |  min  |  25%   |  50%   |  75%   |  max   |
 |-----------|-------|---------|---------|-------|--------|--------|--------|--------|
 | close     |  854  | 28.78   | 6.7141  |  12   | 25.2   | 28.3   | 32.9   | 47.5   |
