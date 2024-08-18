@@ -12,6 +12,9 @@ obtained from the ARIMA model. Leveraging this dataset, we design a series of
 experiments to evaluate the performance of various models, including ARIMA,
 XGBoost, and the hybrid model. Through comparison and analysis of the results, we aim
 to identify the most effective approach for our work.
+## Framework
+![Screenshot](hybrid-model-framework.png)
+The proposed framework for hybrid model for stock price prediction
 ## Results
 The research project accomplished the development and evaluation of diverse models for
 stock price forecasting, encompassing both individual models and hybrid models. These
