@@ -1,5 +1,6 @@
 ## Histplot data after converting time series to specified frequency and fill nan values.
 ![Screenshot](histplot_data.png)
+
 $${\color{red}Table. Statistic Description}$$
 
 | Feature   | count |   mean  |   std   |  min  |  25%   |  50%   |  75%   |  max   |
