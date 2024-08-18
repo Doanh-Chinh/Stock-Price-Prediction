@@ -21,6 +21,7 @@ $${\color{red}Table. Splitting Time Series Data}$$
 | Training Set   | 2018-09-25 | 2020-11-24 |
 | Validation Set | 2020-11-25 | 2021-10-29 |
 | Test Set       | 2021-11-01 | 2021-12-31 |
+
 ![Screenshot](close-price.png)
 ## Experimental Results
 ### Evaluation and Results of ARIMA
