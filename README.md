@@ -14,7 +14,7 @@ XGBoost, and the hybrid model. Through comparison and analysis of the results, w
 to identify the most effective approach for our work.
 ## Framework
 ![Screenshot](hybrid-model-framework.png)
-The proposed framework for hybrid model for stock price prediction
+<p align="center">The proposed framework for hybrid model for stock price prediction</p>
 ## Results
 The research project accomplished the development and evaluation of diverse models for
 stock price forecasting, encompassing both individual models and hybrid models. These
