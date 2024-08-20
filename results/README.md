@@ -52,3 +52,10 @@ $${\color{red}Table. Hybrid Attention-Based CNN-LSTM performance}$$
 | Training Set   | 0.84189 | 1.24881  | 0.96578  |  2.9   |
 | Validation Set | 1.32415 | 1.86174  | 0.82230  |  3.49  |
 | Test Set       | 0.52647 | 0.71036  | 0.86659  |  1.56  |
+
+### Results on Test set
+| Set            |   MAE   |   RMSE   | R2 Score |  MAPE  |
+|----------------|---------|----------|----------|--------|
+| ARIMA          | 0.51793 | 0.72907  | 0.89888  | 1.510  |
+| ARIMA-XGBoost  | 0.32653 | 0.45233  | 0.96108  |  0.95  |
+| Att-CNN-LSTM   | 0.52647 | 0.71036  | 0.86659  |  1.56  |
